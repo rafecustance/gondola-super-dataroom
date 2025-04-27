@@ -803,7 +803,7 @@ img {
     border: none !important; }
 
 html {
-  background-color: #F8F8F8 !important;
+  background-color: #00081B !important;
   /* background-image: url('https://mattdowney.github.io/folio/img/loader.svg');
     background-repeat: no-repeat;
     background-size: 3rem 3rem;
@@ -811,7 +811,7 @@ html {
     height: 100% !important; */ }
 
 body {
-  background: #F8F8F8 !important;
+  background: #00081B !important;
   /* animation: fadeIn 0.35s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1.1s both;
     height: 100% !important;
 
@@ -825,7 +825,7 @@ body {
 html, body,
 h1, h2, h3, p,
 ul, ol, li {
-  color: #2B2929 !important; }
+  color: #f8f8f8 !important; }
 
 h1, h2 {
   font-family: "PP Neue Montreal Book", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
@@ -853,7 +853,7 @@ h3 {
   font-size: 1.0875rem !important; }
 
 p, a, p a, ul, ul li {
-  color: #2B2929 !important;
+  color: #f8f8f8 !important;
   margin-bottom: 1.5rem !important;
   font-size: 1.0875rem !important;
   line-height: 1.675 !important;
@@ -889,7 +889,7 @@ pre {
 .notion-text p.notion-text__content span.notion-semantic-string span a.notion-link, .notion-text p.notion-text__content span.notion-semantic-string span.link {
   border-bottom: none !important;
   transition: all 0.2s ease-in-out !important;
-  color: #2B2929 !important; }
+  color: #f8f8f8 !important; }
   .notion-text p.notion-text__content span.notion-semantic-string span a.notion-link:hover, .notion-text p.notion-text__content span.notion-semantic-string span.link:hover {
     color: #F7F775 !important;
     border-bottom: none; }
@@ -898,21 +898,21 @@ pre {
   background: #F7F775 !important;
   padding: 0.6875rem 1.75rem 0.725rem 1.75rem !important;
   border-bottom: none !important;
-  color: #2B2929 !important;
+  color: #00081B !important;
   border-radius: 500rem !important;
   font-weight: 500 !important;
   transition: 0.2s all ease-in-out;
   line-height: 1 !important;
   opacity: 1 !important; }
   .notion-text p.notion-text__content span.notion-semantic-string span strong a.notion-link:hover {
-    background: #2B2929 !important;
-    color: #E0D9D1 !important;
+    background: #f8f8f8 !important;
+    color: #00081B !important;
     border-bottom: none !important; }
 
 .notion-text p.notion-text__content span.notion-semantic-string span em a.notion-link {
   font-style: normal !important;
   font-weight: 500 !important;
-  color: #2B2929 !important;
+  color: #f8f8f8 !important;
   border-bottom: none !important;
   transition: all 0.2s ease-in-out !important;
   margin-left: 0.5rem !important; }
@@ -937,7 +937,7 @@ pre {
   color: #F7F775 !important; }
 
 .desktop-nav {
-  max-width: 1440px !important;
+  /* max-width: 1440px !important;
   margin: 0 auto !important;
   text-align: right !important;
   padding-left: calc(env(safe-area-inset-left) + 96px) !important;
@@ -945,8 +945,10 @@ pre {
   top: 2.45rem !important;
   display: flex;
   align-items: center;
-  padding-top: 2.5rem; }
-  @media (max-width: 1199.98px) {
+  padding-top: 2.5rem; */
+  display: none !important;
+}
+  /* @media (max-width: 1199.98px) {
     .desktop-nav {
       display: none !important;
       padding-left: calc(env(safe-area-inset-left) + 1.5rem) !important;
@@ -972,10 +974,10 @@ pre {
       .desktop-nav .right a:hover {
         color: #F7F775 !important;
         opacity: 1 !important;
-        border-bottom: none; }
+        border-bottom: none; } */
 
 .mobile-nav {
-  display: none !important; }
+  display: block !important; }
   @media (max-width: 1199.98px) {
     .mobile-nav {
       display: block !important;
@@ -1035,7 +1037,7 @@ pre {
               transform: rotate(-405deg) !important; }
     .mobile-nav .right nav a {
       text-decoration: none !important;
-      color: #2B2929 !important;
+      color: #f8f8f8 !important;
       display: block !important;
       font-size: 2.75rem !important;
       font-weight: 500 !important;
@@ -1096,12 +1098,12 @@ pre {
           -webkit-animation: fadeInTop 500ms ease forwards !important;
                   animation: fadeInTop 500ms ease forwards !important; }
           .mobile-nav .right input:checked ~ nav > ul > li a {
-            color: #2B2929 !important;
+            color: #f8f8f8 !important;
             font-weight: 500 !important;
             display: block !important;
             font-size: 2.25rem !important;
             margin-bottom: 0.65rem !important;
-            color: #2B2929 !important; }
+            color: #f8f8f8 !important; }
 
 @-webkit-keyframes fadeInTop {
   0% {
@@ -1195,7 +1197,7 @@ pre {
             padding-right: 0rem !important; } }
         .super-content .notion-collection-gallery.large .notion-collection-card .notion-property__title .notion-semantic-string {
           white-space: normal !important;
-          color: #2B2929 !important; }
+          color: #f8f8f8 !important; }
         .super-content .notion-collection-gallery.large .notion-collection-card .notion-property__title .notion-property__title__icon-wrapper {
           display: none !important; }
         .super-content .notion-collection-gallery.large .notion-collection-card .notion-property__title span {
@@ -1222,7 +1224,7 @@ pre {
         .super-content .notion-collection-gallery.large .notion-collection-card .notion-collection-card__content .notion-semantic-string {
           white-space: normal !important;
           font-size: 1.0875rem !important;
-          color: #2B2929 !important; }
+          color: #f8f8f8 !important; }
         .super-content .notion-collection-gallery.large .notion-collection-card .notion-collection-card__content .notion-collection-card__property {
           margin-bottom: 1.5rem !important;
           color: rgba(247, 246, 251, 0.5) !important; }
@@ -1316,7 +1318,7 @@ pre {
     font-size: 1.5rem !important;
     font-family: "PP Neue Montreal Book", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
     font-weight: 500 !important;
-    color: #2B2929 !important; }
+    color: #f8f8f8 !important; }
 
 .super-content .notion-collection-gallery.medium .notion-collection-card a {
   text-indent: -9999px !important; }
@@ -1386,7 +1388,7 @@ pre {
 .notion-collection .notion-collection-table__cell .notion-link {
   font-size: 1.1rem !important;
   transition: all 0.2s ease-in-out !important;
-  color: #2B2929 !important; }
+  color: #f8f8f8 !important; }
   @media (max-width: 767.98px) {
     .notion-collection .notion-collection-table__cell .notion-link {
       font-size: 1rem !important; } }
