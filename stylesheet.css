@@ -5,10 +5,10 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
- @font-face {
-   font-family: "ABC Diatype Unlicensed Trial";
-   src: url("https://ga-backstage.s3.ap-southeast-2.amazonaws.com/when-fertility/ABCDiatype-Regular-Trial.woff2") format("woff2")
- }
+@font-face {
+  font-family: "PP Neue Montreal Book";
+  src: url("https://ga-backstage.s3.ap-southeast-2.amazonaws.com/gondola/PPNeueMontreal-Book.woff2") format("woff2");
+}
 .container,
 .container-fluid,
 .container-xl,
@@ -803,7 +803,7 @@ img {
     border: none !important; }
 
 html {
-  background-color: #E0D9D1 !important;
+  background-color: #F8F8F8 !important;
   /* background-image: url('https://mattdowney.github.io/folio/img/loader.svg');
     background-repeat: no-repeat;
     background-size: 3rem 3rem;
@@ -811,7 +811,7 @@ html {
     height: 100% !important; */ }
 
 body {
-  background: #E0D9D1 !important;
+  background: #F8F8F8 !important;
   /* animation: fadeIn 0.35s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1.1s both;
     height: 100% !important;
 
@@ -828,7 +828,7 @@ ul, ol, li {
   color: #2B2929 !important; }
 
 h1, h2 {
-  font-family: "ABC Diatype Unlicensed Trial", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+  font-family: "PP Neue Montreal Book", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
   letter-spacing: 0.025rem !important; }
 
 h1 {
@@ -847,7 +847,7 @@ h2 {
     h2 {
       font-size: 1.75rem !important; } }
 h3 {
-  font-family: "ABC Diatype Unlicensed Trial", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+  font-family: "PP Neue Montreal Book", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
   text-transform: uppercase !important;
   letter-spacing: 0.075rem !important;
   font-size: 1.0875rem !important; }
@@ -857,7 +857,7 @@ p, a, p a, ul, ul li {
   margin-bottom: 1.5rem !important;
   font-size: 1.0875rem !important;
   line-height: 1.675 !important;
-  font-family: "ABC Diatype Unlicensed Trial", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important; }
+  font-family: "PP Neue Montreal Book", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important; }
   @media (max-width: 1199.98px) {
     p, a, p a, ul, ul li {
       font-size: 1rem !important; } }
@@ -1041,7 +1041,7 @@ pre {
       font-weight: 500 !important;
       background: none !important;
       border: none !important;
-      font-family: "ABC Diatype Unlicensed Trial", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+      font-family: "PP Neue Montreal Book", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
       margin-bottom: 1.5rem; }
     .mobile-nav .right input ~ nav {
       position: absolute !important;
@@ -1199,7 +1199,7 @@ pre {
         .super-content .notion-collection-gallery.large .notion-collection-card .notion-property__title .notion-property__title__icon-wrapper {
           display: none !important; }
         .super-content .notion-collection-gallery.large .notion-collection-card .notion-property__title span {
-          font-family: "ABC Diatype Unlicensed Trial", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+          font-family: "PP Neue Montreal Book", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
           font-size: 1.875rem !important;
           margin-bottom: 0.5rem !important;
           line-height: 1.2875 !important; }
@@ -1284,7 +1284,7 @@ pre {
         padding-bottom: 0 !important; }
       .super-content .notion-collection-gallery.medium .notion-collection-card .notion-property__title {
         font-size: 1.25rem !important;
-        font-family: "ABC Diatype Unlicensed Trial", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+        font-family: "PP Neue Montreal Book", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
         padding-top: 1.5rem !important;
         padding-left: 1.25rem !important;
         padding-right: 1.25rem !important;
@@ -1314,7 +1314,7 @@ pre {
     margin: 1rem 0 3rem 0 !important;
     padding: 1rem 1rem 1rem 2rem !important;
     font-size: 1.5rem !important;
-    font-family: "ABC Diatype Unlicensed Trial", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+    font-family: "PP Neue Montreal Book", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
     font-weight: 500 !important;
     color: #2B2929 !important; }
 
