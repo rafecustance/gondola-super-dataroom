@@ -1406,3 +1406,19 @@ pre {
 h2.notion-heading {
   margin-top: 4rem !important;
 }
+
+.notion-pdf {
+  width: 100% !important;
+}
+
+.notion-pdf__content {
+  width: 100% !important;
+  height: 800px !important;
+}
+
+.notion-pdf__content iframe {
+  width: 100% !important;
+  height: 800px !important;
+  min-height: 800px !important;
+  border: none !important;
+}
