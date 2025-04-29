@@ -983,7 +983,8 @@ pre {
       display: block !important;
       display: flex;
       align-items: center;
-      margin-bottom: 2.5rem !important; } }
+      margin-bottom: 2.5rem !important; 
+      margin-left: 20px; } }
   .mobile-nav .left {
     flex: 1 0 50%;
     text-align: left; }
@@ -1277,7 +1278,6 @@ pre {
       .super-content .notion-collection-gallery.medium .notion-collection-card .notion-collection-card__cover.medium > div,
       .super-content .notion-collection-gallery.medium .notion-collection-card .notion-collection-card__cover.medium img,
       .super-content .notion-collection-gallery.medium .notion-collection-card .notion-collection-card__cover.medium > span {
-        height: 18.625rem !important;
         max-height: 18.625rem !important;
         border-bottom: none !important; }
       .super-content .notion-collection-gallery.medium .notion-collection-card .notion-collection-card__content {
@@ -1287,7 +1287,7 @@ pre {
       .super-content .notion-collection-gallery.medium .notion-collection-card .notion-property__title {
         font-size: 1.25rem !important;
         font-family: "PP Neue Montreal Book", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
-        padding-top: 1.5rem !important;
+        padding-top: 0.75rem !important;
         padding-left: 1.25rem !important;
         padding-right: 1.25rem !important;
         padding-bottom: 0rem !important; }
