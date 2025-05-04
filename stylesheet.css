@@ -1422,3 +1422,19 @@ h2.notion-heading {
   min-height: 800px !important;
   border: none !important;
 }
+
+.notion-table__cell {
+  color: #f8f8f8 !important;
+}
+
+.notion-link.notion-file:hover {
+  background-color: #e1e1e1 !important;
+}
+
+.notion-link.notion-file:hover .notion-file__title {
+  color: #000 !important;
+}
+
+.notion-link.notion-file:hover .notion-file__size {
+  color: #444 !important;
+}
