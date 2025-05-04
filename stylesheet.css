@@ -1438,3 +1438,8 @@ h2.notion-heading {
 .notion-link.notion-file:hover .notion-file__size {
   color: #444 !important;
 }
+
+.notion-link.notion-file:hover .notion-file__icon svg {
+  fill: #222 !important;
+  /* Or use #000 for pure black if you prefer */
+}
